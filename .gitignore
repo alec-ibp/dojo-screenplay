@@ -1,0 +1,87 @@
+# Clases compiladas
+
+example/*.class
+example_Manual/.*class
+
+# Logs
+
+example/*.log
+example_Manual/*.log
+
+# Archivos comprimidos
+
+example/*.war
+example/*.nar
+example/*.ear
+example/*.zip
+example/*.tar.gz
+example/*.rar
+
+example_Manual/*.war
+example_Manual/*.nar
+example_Manual/*.ear
+example_Manual/*.zip
+example_Manual/*.tar.gz
+example_Manual/*.rar
+
+# Reportes serenity
+
+example_Manual/target/
+target/
+
+# Gradle
+
+.gradle/
+
+example_Manual/.gradle/
+build/
+
+# No ignorar el Gradle Wrapper
+
+!example_Manual/gradle\wrapper\gradle-wrapper.jar
+!example/gradle\wrapper\gradle-wrapper.jar
+
+
+# Archivos eclipse
+.idea
+example/.classpath
+example_Manual/.classpath
+example/.project
+example_Manual/.project
+example/.metadata
+example_Manual/.metadata
+example/bin/
+example_Manual/bin/
+example/tmp/
+example_Manual/tmp/
+example/*.tmp
+example_Manual/*.tmp
+example/*.bak
+example_Manual/*.bak
+example/*.swp
+example_Manual/*.swp
+example/*~.nib
+example_Manual/*~.nib
+example/local.properties
+example_Manual/local.properties
+example/.settings/
+example_Manual/.settings/
+example/.loadpath
+example_Manual/.loadpath
+example/.recommenders
+example_Manual/.recommenders
+example/.idea/
+example_Manual/.idea/
+example/out/
+example_Manual/out/
+
+# Locally stored "Eclipse launch configurations"
+
+example/*.launch
+example_Manual/*.launch
+
+### Sonar ###
+#Sonar generated dir
+
+example_Manual/.sonar/
+example/.sonar/
